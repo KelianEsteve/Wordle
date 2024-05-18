@@ -1,6 +1,6 @@
 ## Authors
 
-Calvin Tom, Alguazil Florian, Allegre Romain, Esteve Kelian
+Calvin Tom, Alguazil Florian, Allegre Romain, Estève Kelian
 
 ## Software Presentation
 
