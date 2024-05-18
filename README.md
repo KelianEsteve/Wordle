@@ -1,67 +1,44 @@
-## Auteurs
+## Authors
 
 Calvin Tom, Alguazil Florian, Allegre Romain, Esteve Kelian
 
+## Software Presentation
 
-## Présentation du logiciel
+The software is based on the game Wordle. At the start of the game, a random word is selected, and the player has six attempts to guess it. For each attempt, a visual indicator informs whether each letter is correctly positioned in the word or not.
 
-Le logiciel est basé sur le jeu du wordle. Au début de la partie, un mot aléatoire est sélectionné et le joueur dispose de six essais pour le deviner. Pour chaque tentative, un indicateur visuel informe si chaque lettre est bien positionnée dans le mot ou non.
+## Source Code Organization
 
+- **Main:** Creation of the main game instance
+- **Wordle:** Creation, management of the game scene, and retrieval of hints
+- **GameWordle:** Management of the grid interactions
+- **Dictionary:** Retrieval of the dictionary
+- **Difficulty:** Definition of difficulty levels
+- **Score:** Management of the score
+- **Timer:** Management of the timer
+- **VirtualKeyboard and KeyButton:** Management of the virtual keyboard and keys
+- **TextBox:** Management of the grid cells
+- **WordleGrid:** Management of the grid and grid/keyboard interaction methods
 
-## Organisation du code source
+## Necessary Resources
 
-- **Main :** création de l'instance principale du jeu
+1. **Eclipse IDE with the JavaFX library**
+2. **External IDE to run the Python server and generate hints**
 
-- **Wordle :** création, gestion de la scène du jeu et recuperation des indices
+## Execution Procedure
 
-- **GameWordle :** gestion des interactions de la grille
+1. **Run the Python program to handle the hints (if it is not running, the game will function without hints)**
+2. **Execute the Wordle main in Eclipse**
 
-- **Dictionary :** récupération du dictionnaire
-
-- **Difficulty :** définition des niveaux de difficulté
-
-- **Score :** gestion du score
-
-- **Timer :** gestion du timer
-
-- **VirtualKeyboard et KeyButton :** gestion des touches et du clavier virtuel
-
-- **TextBox :** gestion des cases de la grille
-
-- **WordleGrid :** gestion de la grille et méthodes d'interactions grille/clavier
-
-
-## Ressources nécessaires
-
-1. **IDE Eclipse avec la bibliothèque JavaFX**
-
-2. **IDE externe pour lancer le serveur Python et générer les indices**
-
-
-## Procedure d'execution
-
-1. **Lancer le programme python pour prendre en charge les indices (si ce dernier n'est pas lance le jeu fonctionnera snas indices)**
-
-2. **Executer le main du wordle dans eclipse**
-
-
-## Bibliotheque utilisees
+## Libraries Used
 
 1. java.fx
-
 2. java.io
-
 3. java.net
-
 4. java.util
-
 5. java.text
 
+## Bibliographic References
 
-## References bibliographiques
-
-1. [Worlde](https://wordle.louan.me/)
-
+1. [Wordle](https://wordle.louan.me/)
 2. [JavaDoc](https://docs.oracle.com/javase/7/docs/api/)
-
-3. model utilise pour la generation d'indices : word2vec
+3. Model used for hint generation: word2vec
